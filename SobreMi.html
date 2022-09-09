@@ -1,0 +1,252 @@
+    <!--Falta:
+        Agregar dinamica en los skills, modificar el contenido de los campos (Storytelling)
+    -->
+<html lang="en">
+
+  <head>
+
+    <!-- Required meta tags -->
+
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link href="D:\YoProgramo\portfolio-FrontEnd\style.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js">
+    </script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js">
+    </script>
+
+    <title>Portfolio</title>
+
+  </head>
+
+  <body>
+    <!-- items de barra de menu -->
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-toggleable-sm navbar-dark bg-dark">
+        <div class = "container-fluid">
+          <div class = "navbar-header">
+            <a class="navbar-brand ml-auto" href="https://argentinaprograma.inti.gob.ar/">
+                <img src="Imagenes\APLogo-20-20.png" width="150px" class="d-inline-block align-top" alt="APLogo">
+            </a>
+          </div>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon ml-auto"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01"> 
+            <div id = "barranav" class="navbar-nav ml-auto">
+              <a class="nav-item nav-link" href="Inicio.html">INICIO</a>
+              <a class="nav-item nav-link" href="Portfolio.html">PORTFOLIO</a>
+              <a class="nav-item nav-link" href="SobreMi.html">SOBRE MI</a>
+              <a class="nav-item nav-link" href="Contacto.html">CONTACTO</a>
+            </div>
+            </div>
+      </nav>
+  </header>
+
+    <!-- contenido de pagina -->
+
+    <div class="container-fluid titsec">
+      <h2 class="titulo">
+        Sobre Mi
+      </h2>
+      <div class="row descripcion">
+        <div class = "descripciontxt col-sm-8">
+          <p><span>Hola, soy Tomi Martin.</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium expedita eveniet soluta non, necessitatibus dolorum incidunt delectus consequuntur corrupti ex labore, enim iure facilis, earum maxime deleniti ad placeat ratione.</p>
+        </div>
+        <div class = "imgInicio col-sm-4">
+          <img src="Imagenes/FotoCV.jpg" alt="">
+        </div>
+      </div>
+    </div>
+
+  <section class="sobremi">
+    
+        <div class="row" id = "dp">
+          <!-- datos personales -->
+          <div class="col-sm-6">
+              <h3>Datos Personales</h3>
+              <ul>
+                  <li>
+                      <strong>Cumpleaños:</strong>
+                      20-03-1995
+                  </li>
+                  <li>
+                      <strong>Email:</strong>
+                      tomasheto@hotmail.es
+                  </li>
+                  <li>
+                      <strong>Dirección:</strong>
+                      Av. Urquiza 4561, Caseros, BA, Argentina
+                  </li>
+                  <li>
+                      <strong>Cargo Actual:</strong>
+                      <span>Desarrollador y Electrónico en Tel-Sen</span>
+                  </li>
+              </ul>
+        </div>
+      
+
+        <!-- intereses -->
+        <div class="col-sm-6">
+            <h3>Intereses</h3>
+            <div class="contenedor-intereses">
+
+                <div class="interes">
+                    <i class="fa-solid fa-headphones"></i>
+                    <span>MUSICA</span>
+                </div>
+                <div class="interes">
+                    <i class="fa-solid fa-plane"></i>
+                    <span>VIAJAR</span>
+                  </div>
+                <div class="interes">
+                      <i class="fa-sharp fa-solid fa-tree"></i>
+                      <span>NATURALEZA</span>
+                </div>
+                
+                <div class="interes">
+                  <i class="fa-sharp fa-solid fa-microchip"></i>
+                    <span>ELECTRONICA</span>
+                </div>
+                <div class="interes">
+                  <i class="fa-sharp fa-solid fa-terminal"></i>
+                    <span>PROGRAMAR</span>
+                </div>
+                <div class="interes">
+                  <i class="fa-sharp fa-solid fa-music"></i>
+                  <span>AUDIO</span>
+                </div>
+            </div>
+        </div>
+      </div>
+    
+     <a href="Imagenes\CV-Martin.pdf" download="CV_Martin.pdf">
+    <button class = "sobreMiB">
+        Descargar CV <i class="fa-solid fa-download"></i>
+
+        
+        <span class="overlay"></span>
+    </button>
+    </a>
+
+
+  </section>
+
+  <!-- SECCION SKILLS -->
+
+  <section class="skills" id="skills">
+    <div class="contenido-seccion">
+        <h2>Skills</h2>
+        <div class="row">
+            <!-- Technical Skill -->
+            <div class="col">
+                <h3>Technical Skills</h3>
+                <div class="skill">
+                    <span>Javascript</span>
+                    <div class="barra-skill">
+                        <div class="progreso">
+                            <span>75%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>HTML & CSS</span>
+                    <div class="barra-skill">
+                        <div class="progreso">
+                            <span>89%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Photoshop</span>
+                    <div class="barra-skill">
+                        <div class="progreso">
+                            <span>95%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Wordpress</span>
+                    <div class="barra-skill">
+                        <div class="progreso">
+                            <span>81%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Drupa</span>
+                    <div class="barra-skill">
+                        <div class="progreso">
+                            <span>55%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Professional Skills -->
+            <div class="col">
+                <h3>Professional Skills</h3>
+                <div class="skill">
+                    <span>Comunicación</span>
+                    <div class="barra-skill">
+                        <div class="progreso">
+                            <span>80%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Trabajo en Equipo</span>
+                    <div class="barra-skill">
+                        <div class="progreso">
+                            <span>70%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Creatividad</span>
+                    <div class="barra-skill">
+                        <div class="progreso">
+                            <span>99%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Dedicación</span>
+                    <div class="barra-skill  ">
+                        <div class="progreso ">
+                            <span>65%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Proyect Management</span>
+                    <div class="barra-skill">
+                        <div class="progreso">
+                            <span>94%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    
+
+
+  </section>
+
+  </body>
+
+</html>
