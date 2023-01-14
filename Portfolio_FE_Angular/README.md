@@ -6,7 +6,7 @@ Para poder hacer uso del portfolio (con datos personales de ejemplo) es necesari
 
 Si se quiere usar portfolio como template, generar nuevos datos usando las Apis de carga de datos en dB creadas en Backend.
 
-Para visualizar la página web es necesario dar a ng serve en proyecto de Angular (VSCode) y Run en proyecto de SpringBoot (Netbeans)
+Para visualizar la página web es necesario ejecutar "ng serve" en proyecto de Angular (VSCode) y Run en proyecto de SpringBoot (Netbeans)
 
 ## CREDENCIALES PARA INGRESAR A PORTFOLIO Y MAIL:
 
