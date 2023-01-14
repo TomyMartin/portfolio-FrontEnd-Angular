@@ -1,3 +1,6 @@
+<app-general></app-general>
+
+<div id="PORTFOLIO"></div>
 <div class="container-fluid titsec">
   <h2 class="titulo">PORTFOLIO</h2>
 </div>
@@ -8,15 +11,18 @@
       <div class="proyecto">
         <a
           class="nav-item nav-link"
-          href="\assets\Imagenes\Martin Tomas_Avance 5_Detección y clasificación automática de registros acústicos de embarcaciones_.pdf"
+          [href]="miPortfolio.itemsPortfolio.item1.path"
         >
-          <img class="pfImag" src="/assets/Imagenes/IA.jpg" alt="" />
+          <img
+            class="pfImag"
+            [src]="miPortfolio.itemsPortfolio.item1.img"
+            alt=""
+          />
 
           <div class="overlay">
-            <h3>Machine Learning</h3>
+            <h3>{{ miPortfolio.itemsPortfolio.item1.nombre }}</h3>
             <p>
-              Detección y clasificación automática de registros acústicos de
-              embarcaciones.
+              {{ miPortfolio.itemsPortfolio.item1.descripcion }}
             </p>
           </div>
         </a>
@@ -25,17 +31,38 @@
       <div class="proyecto">
         <a
           class="nav-item nav-link"
-          href="\assets\Imagenes\Informe Final de PPS - Martin Tomas.pdf"
+          [href]="miPortfolio.itemsPortfolio.item2.path"
         >
           <img
             class="pfImag"
-            src="\assets\Imagenes/DetectorCetaceos.png"
+            [src]="miPortfolio.itemsPortfolio.item2.img"
             alt=""
           />
 
           <div class="overlay">
-            <h3>Acústica Subacuática</h3>
-            <p>Detector Semi-Automatico de Ballena Fin</p>
+            <h3>{{ miPortfolio.itemsPortfolio.item2.nombre }}</h3>
+            <p>
+              {{ miPortfolio.itemsPortfolio.item2.descripcion }}
+            </p>
+          </div>
+        </a>
+      </div>
+      <div class="proyecto">
+        <a
+          class="nav-item nav-link"
+          [href]="miPortfolio.itemsPortfolio.item3.path"
+        >
+          <img
+            class="pfImag"
+            [src]="miPortfolio.itemsPortfolio.item3.img"
+            alt=""
+          />
+
+          <div class="overlay">
+            <h3>{{ miPortfolio.itemsPortfolio.item3.nombre }}</h3>
+            <p>
+              {{ miPortfolio.itemsPortfolio.item3.descripcion }}
+            </p>
           </div>
         </a>
       </div>
@@ -43,23 +70,19 @@
       <div class="proyecto">
         <a
           class="nav-item nav-link"
-          href="\assets\Imagenes\Acoustical Parameters_Bevilacqua_Martín_Martínez_1C2020.pdf"
+          [href]="miPortfolio.itemsPortfolio.item4.path"
         >
-          <img class="pfImag" src="\assets\Imagenes/MAcust.png" alt="" />
+          <img
+            class="pfImag"
+            [src]="miPortfolio.itemsPortfolio.item4.img"
+            alt=""
+          />
 
           <div class="overlay">
-            <h3>Acústica</h3>
-            <p>Medición Acústica de Microestado UNTREF</p>
-          </div>
-        </a>
-      </div>
-
-      <div class="proyecto">
-        <a class="nav-item nav-link" href="https://linktr.ee/Mansion.Sesiones">
-          <img class="pfImag" src="\assets\Imagenes/Logo blanco.png" alt="" />
-          <div class="overlay">
-            <h3>Producción Audiovisual</h3>
-            <p>Sesiones en la Mansión</p>
+            <h3>{{ miPortfolio.itemsPortfolio.item4.nombre }}</h3>
+            <p>
+              {{ miPortfolio.itemsPortfolio.item4.descripcion }}
+            </p>
           </div>
         </a>
       </div>
@@ -67,13 +90,19 @@
       <div class="proyecto">
         <a
           class="nav-item nav-link"
-          href="\assets\Imagenes/Desarrollo de un software de procesamiento re RIRs_Bevilacqua_Martín_Martínez_1C2020_V1.pdf"
+          [href]="miPortfolio.itemsPortfolio.item5.path"
         >
-          <img class="pfImag" src="\assets\Imagenes/RIR.png" alt="" />
+          <img
+            class="pfImag"
+            [src]="miPortfolio.itemsPortfolio.item5.img"
+            alt=""
+          />
 
           <div class="overlay">
-            <h3>Desarrollo en Python</h3>
-            <p>Herramienta para el Procesamiento RIR's</p>
+            <h3>{{ miPortfolio.itemsPortfolio.item5.nombre }}</h3>
+            <p>
+              {{ miPortfolio.itemsPortfolio.item5.descripcion }}
+            </p>
           </div>
         </a>
       </div>
@@ -81,23 +110,39 @@
       <div class="proyecto">
         <a
           class="nav-item nav-link"
-          href="https://www.youtube.com/watch?v=bTmYCmcbnxM&ab_channel=D%C3%BAoMoyano-Burgos"
+          [href]="miPortfolio.itemsPortfolio.item6.path"
         >
-          <img class="pfImag" src="\assets\Imagenes/DuoMB.jpg" alt="" />
+          <img
+            class="pfImag"
+            [src]="miPortfolio.itemsPortfolio.item6.img"
+            alt=""
+          />
+
           <div class="overlay">
-            <h3>SIGNUM</h3>
-            <p>Grabación, Mezcla y Mastering</p>
+            <h3>{{ miPortfolio.itemsPortfolio.item6.nombre }}</h3>
+            <p>
+              {{ miPortfolio.itemsPortfolio.item6.descripcion }}
+            </p>
           </div>
         </a>
       </div>
 
       <div class="proyecto">
-        <a class="nav-item nav-link" href="\assets\Imagenes\TP2-LPC-MARTIN.pdf">
-          <img class="pfImag" src="\assets\Imagenes/3.jpg" alt="" />
+        <a
+          class="nav-item nav-link"
+          [href]="miPortfolio.itemsPortfolio.item7.path"
+        >
+          <img
+            class="pfImag"
+            [src]="miPortfolio.itemsPortfolio.item7.img"
+            alt=""
+          />
 
           <div class="overlay">
-            <h3>Desarrollo en Matlab</h3>
-            <p>Síntesis de Voz por LPC</p>
+            <h3>{{ miPortfolio.itemsPortfolio.item7.nombre }}</h3>
+            <p>
+              {{ miPortfolio.itemsPortfolio.item7.descripcion }}
+            </p>
           </div>
         </a>
       </div>

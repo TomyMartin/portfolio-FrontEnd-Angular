@@ -8,9 +8,8 @@ describe('SobreMiComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ SobreMiComponent ]
-    })
-    .compileComponents();
+      declarations: [SobreMiComponent],
+    }).compileComponents();
 
     fixture = TestBed.createComponent(SobreMiComponent);
     component = fixture.componentInstance;
