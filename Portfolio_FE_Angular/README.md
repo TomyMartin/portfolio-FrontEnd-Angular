@@ -2,9 +2,11 @@
 
 ## IMPORTANTE:
 
-Para poder hacer uso del portfolio con datos personales de ejemplo es necesario importar el schema en MySQL (Server -> DataImport -> seleccionar: import from Self-Contained File, buscar: portfolio_db.sql (alojado en Backend) -> default Schema to be Imported To: -> New : Escribir portfolio_db -> Start Import.
+Para poder hacer uso del portfolio (con datos personales de ejemplo) es necesario importar el schema en MySQL (Server -> DataImport -> seleccionar: import from Self-Contained File, buscar: portfolio_db.sql (alojado en Backend) -> default Schema to be Imported To: -> New : Escribir portfolio_db -> Start Import.
 
 Si se quiere usar portfolio como template, generar nuevos datos usando las Apis de carga de datos en dB creadas en Backend.
+
+Para visualizar la página web es necesario dar a ng serve en proyecto de Angular (VSCode) y Run en proyecto de SpringBoot (Netbeans)
 
 ## CREDENCIALES PARA INGRESAR A PORTFOLIO Y MAIL:
 
