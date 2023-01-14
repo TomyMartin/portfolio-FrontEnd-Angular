@@ -2,7 +2,9 @@
 
 ## IMPORTANTE:
 
-Para poder hacer una lectura con datos personales de ejemplo es necesario importar el schema en MySQL (Server -> DataImport -> seleccionar: import from Self-Contained File, buscar: portfolio_db.sql (alojado en Backend) -> default Schema to be Imported To: -> New : Escribir portfolio_db -> Start Import
+Para poder hacer uso del portfolio con datos personales de ejemplo es necesario importar el schema en MySQL (Server -> DataImport -> seleccionar: import from Self-Contained File, buscar: portfolio_db.sql (alojado en Backend) -> default Schema to be Imported To: -> New : Escribir portfolio_db -> Start Import.
+
+Si se quiere usar portfolio como template, generar nuevos datos usando las Apis de carga de datos en dB creadas en Backend.
 
 ## CREDENCIALES PARA INGRESAR A PORTFOLIO Y MAIL:
 
