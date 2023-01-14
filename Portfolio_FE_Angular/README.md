@@ -1,6 +1,11 @@
 # PortfolioFEAngular
 
+## IMPORTANTE:
+
+Para poder hacer una lectura con datos personales de ejemplo es necesario importar el schema en MySQL (Server -> DataImport -> seleccionar: import from Self-Contained File, buscar: portfolio_db.sql (alojado en Backend) -> default Schema to be Imported To: -> New : Escribir portfolio_db -> Start Import
+
 ## CREDENCIALES PARA INGRESAR A PORTFOLIO Y MAIL:
+
 usuario: portfolioTomasMartin@hotmail.com
 pwd: Prueba123
 
