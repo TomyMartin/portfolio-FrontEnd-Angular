@@ -1,6 +1,6 @@
 # PortfolioFEAngular
 
-CREDENCIALES PARA INGRESAR A PORTFOLIO Y MAIL:
+## CREDENCIALES PARA INGRESAR A PORTFOLIO Y MAIL:
 usuario: portfolioTomasMartin@hotmail.com
 pwd: Prueba123
 
